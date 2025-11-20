@@ -1,0 +1,90 @@
+
+boy_1.png
+size: 145,145
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 92, 41
+  size: 21, 43
+  orig: 21, 43
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 38, 18
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 2, 3
+  size: 40, 13
+  orig: 40, 13
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 2, 65
+  size: 66, 78
+  orig: 66, 78
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 19
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 119, 106
+  size: 24, 37
+  orig: 24, 37
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 70, 38
+  size: 20, 46
+  orig: 20, 46
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 70, 86
+  size: 26, 47
+  orig: 26, 47
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 70, 2
+  size: 19, 34
+  orig: 19, 34
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 70, 114
+  size: 47, 29
+  orig: 47, 29
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 91, 5
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 115, 43
+  size: 41, 19
+  orig: 41, 19
+  offset: 0, 0
+  index: -1
