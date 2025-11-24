@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>hennie</title>
+	<title>HENNIE</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -56,27 +56,32 @@
 			<div class="inner">
 				<header>
 					<h1>个人作品展示</h1>
-					
-					<p>大家好！我是凉白开，从事游戏行业8年的游戏客户端开发，熟悉 JavaScript / TypeScript / C#。熟练使用 Cocos Creator、Unity、Egret、LayaAir 等主流引擎，能够独立完成中小型游戏的架构与开发。
 
-具备良好的问题定位与解决能力，对 性能优化、渲染、内存、网络 等方向有实践经验。熟悉多平台应用的 打包上线流程，并有丰富的 API 对接 实战，包括登录、支付、广告、统计等。<br><br>
+					<p>大家好！我是凉白开，从事游戏行业8年的游戏客户端开发，熟悉 JavaScript / TypeScript / C#。熟练使用 Cocos Creator、Unity、Egret、LayaAir
+						等主流引擎，能够独立完成中小型游戏的架构与开发。
 
-热爱游戏开发，专注高质量体验与稳定性。<br><br>
-下面是我的部分作品展示。</p>
+						具备良好的问题定位与解决能力，对 性能优化、渲染、内存、网络 等方向有实践经验。熟悉多平台应用的 打包上线流程，并有丰富的 API 对接 实战，包括登录、支付、广告、统计等。<br><br>
+
+						热爱游戏开发，专注高质量体验与稳定性。<br><br>
+						下面是我的部分作品展示。</p>
 				</header>
 				<section class="tiles">
+
+
 					<article class="style1">
 						<span class="image">
 							<img src="images/pic01.jpg" alt="" />
 						</span>
-						<a href="generic.html">
+						<a href="#" onclick="goXxxPage()">
 							<h2>Magna</h2>
 							<div class="content">
 								<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 							</div>
 						</a>
 					</article>
-					<article class="style2">
+
+
+					<!-- <article class="style2">
 						<span class="image">
 							<img src="images/pic02.jpg" alt="" />
 						</span>
@@ -87,6 +92,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style3">
 						<span class="image">
 							<img src="images/pic03.jpg" alt="" />
@@ -98,6 +105,8 @@
 							</div>
 						</a>
 					</article>
+
+					
 					<article class="style4">
 						<span class="image">
 							<img src="images/pic04.jpg" alt="" />
@@ -109,6 +118,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style5">
 						<span class="image">
 							<img src="images/pic05.jpg" alt="" />
@@ -120,6 +131,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style6">
 						<span class="image">
 							<img src="images/pic06.jpg" alt="" />
@@ -131,6 +144,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style2">
 						<span class="image">
 							<img src="images/pic07.jpg" alt="" />
@@ -142,6 +157,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style3">
 						<span class="image">
 							<img src="images/pic08.jpg" alt="" />
@@ -153,6 +170,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style1">
 						<span class="image">
 							<img src="images/pic09.jpg" alt="" />
@@ -164,6 +183,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style5">
 						<span class="image">
 							<img src="images/pic10.jpg" alt="" />
@@ -175,6 +196,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style6">
 						<span class="image">
 							<img src="images/pic11.jpg" alt="" />
@@ -186,6 +209,8 @@
 							</div>
 						</a>
 					</article>
+
+
 					<article class="style4">
 						<span class="image">
 							<img src="images/pic12.jpg" alt="" />
@@ -196,7 +221,9 @@
 								<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 							</div>
 						</a>
-					</article>
+					</article> -->
+
+
 				</section>
 			</div>
 		</div>
@@ -236,7 +263,7 @@
 									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section> -->
-							<p>如有需要，请联系我： wjx_job1@163.com</p>
+				<p>如有需要，请联系我： wjx_job1@163.com</p>
 				<ul class="copyright">
 					<li>&copy; Untitled. All rights reserved</li>
 					<li>Design:hennie</li>
@@ -252,6 +279,20 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+	<script>
+		function isMobile() { return /Android|iPhone|iPad|iPod|Windows Phone|Mobile/i.test(navigator.userAgent); }
+
+		function goXxxPage() {
+			if (isMobile()) {
+				// 手机跳到 mobile 页面
+				window.location.href = "https://sirwjx.github.io/show/game/xxx-mobile";
+			} else {
+				// 电脑跳到 pc 页面
+				window.location.href = "https://sirwjx.github.io/show/game/xxx-desktop";
+			}
+		}
+	</script>
 
 </body>
 
