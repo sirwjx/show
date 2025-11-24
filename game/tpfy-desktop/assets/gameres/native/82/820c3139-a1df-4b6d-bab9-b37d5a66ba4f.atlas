@@ -1,0 +1,104 @@
+
+gril_5.png
+size: 312,312
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 219, 114
+  size: 38, 61
+  orig: 38, 61
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 164, 154
+  size: 62, 80
+  orig: 62, 80
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 113, 4
+  size: 84, 99
+  orig: 84, 99
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 113, 90
+  size: 49, 126
+  orig: 49, 126
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 2, 182
+  size: 52, 128
+  orig: 52, 128
+  offset: 0, 0
+  index: -1
+14
+  rotate: true
+  xy: 2, 4
+  size: 68, 76
+  orig: 68, 76
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 214, 32
+  size: 25, 73
+  orig: 25, 73
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 164, 107
+  size: 45, 53
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 80, 2
+  size: 70, 28
+  orig: 71, 28
+  offset: 1, 0
+  index: -1
+5
+  rotate: true
+  xy: 2, 74
+  size: 106, 109
+  orig: 106, 109
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 56, 206
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 179, 220
+  size: 39, 68
+  orig: 39, 68
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 179, 261
+  size: 49, 68
+  orig: 49, 68
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 56, 218
+  size: 92, 121
+  orig: 92, 121
+  offset: 0, 0
+  index: -1

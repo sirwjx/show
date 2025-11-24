@@ -1,0 +1,34 @@
+
+buff_hunmi.png
+size: 131,42
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0011_star3
+  rotate: false
+  xy: 77, 14
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+_0013_star1
+  rotate: false
+  xy: 77, 14
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+_0012_star2
+  rotate: false
+  xy: 104, 14
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+_0014_hunmi
+  rotate: false
+  xy: 2, 2
+  size: 73, 38
+  orig: 73, 38
+  offset: 0, 0
+  index: -1
