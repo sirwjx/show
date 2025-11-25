@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="8" height="8" tilewidth="200" tileheight="200" nextobjectid="1">
+ <tileset firstgid="1" name="Terrain_1" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Terrain/Terrain_1.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="2" name="Terrain_2" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Terrain/Terrain_2.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="3" name="Terrain_3" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Terrain/Terrain_3.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="4" name="Terrain_4" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Terrain/Terrain_4.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="5" name="Terrain_5" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Terrain/Terrain_5.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="6" name="Star_basic_coin001" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Star/Star_basic_coin001.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="7" name="Adorn_basic_stone001" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Adorn/Adorn_basic_stone001.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="8" name="Adorn_basic_stone002" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Adorn/Adorn_basic_stone002.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="9" name="Adorn_basic_stone003" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Adorn/Adorn_basic_stone003.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="10" name="Destination_basic_box001" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Destination/Destination_basic_box001.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="11" name="Hinder_basic_rock001" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="Hinder/Hinder_basic_rock001.png" width="200" height="200"/>
+ </tileset>
+ <layer name="Terrain" width="8" height="8">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,
+1,2,2,2,2,2,2,1,
+1,2,3,3,3,3,2,1,
+1,2,3,5,5,3,2,1,
+1,2,3,4,4,3,2,1,
+1,2,3,3,3,3,2,1,
+1,2,2,2,2,2,2,1,
+1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer name="Prop" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,10,0,0,0,0,0,
+0,0,9,0,0,0,0,0,
+0,0,8,0,0,0,0,0,
+0,0,7,6,6,9,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Hinder" width="8" height="8">
+  <data encoding="csv">
+11,11,11,11,11,11,11,11,
+11,0,0,0,0,0,0,11,
+11,0,0,0,0,0,0,11,
+11,0,0,11,11,0,0,11,
+11,0,0,11,11,0,0,11,
+11,0,0,0,0,0,0,11,
+11,0,0,0,0,0,0,11,
+11,11,11,11,11,11,11,11
+</data>
+ </layer>
+</map>

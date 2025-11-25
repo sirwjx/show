@@ -1,0 +1,48 @@
+
+basic.png
+size: 636,634
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Adorn_basic_stone001
+  rotate: true
+  xy: 578, 330
+  size: 82, 54
+  orig: 82, 54
+  offset: 0, 0
+  index: -1
+Star_basic_coin001
+  rotate: true
+  xy: 2, 8
+  size: 218, 253
+  orig: 218, 253
+  offset: 0, 0
+  index: -1
+Star_basic_coin002
+  rotate: false
+  xy: 416, 414
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+aaaaa
+  rotate: false
+  xy: 2, 228
+  size: 412, 404
+  orig: 412, 404
+  offset: 0, 0
+  index: -1
+touying
+  rotate: false
+  xy: 257, 187
+  size: 124, 39
+  orig: 124, 39
+  offset: 0, 0
+  index: -1
+大石头01
+  rotate: false
+  xy: 416, 252
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1

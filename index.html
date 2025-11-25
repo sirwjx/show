@@ -143,6 +143,18 @@
 
 					<article>
 						<span class="image">
+							<img src="images/jmcg.png" alt="" />
+						</span>
+						<a href="#" onclick="goJmcg()">
+							<div class="content">
+								<h2>积木闯关</h2>
+								<p>儿童编程启蒙游戏，通过「积木式拖拽编程」完成关卡挑战，提升逻辑思维与编程基础认知。</p>
+							</div>
+						</a>
+					</article>
+
+					<article>
+						<span class="image">
 							<img src="images/wxnx.png" alt="" />
 						</span>
 						<a href="#" onclick="goWxnxPage()">
@@ -177,25 +189,6 @@
 							</div>
 						</a>
 					</article>
-
-
-
-
-
-
-
-
-					<!-- <article class="style5">
-						<span class="image">
-							<img src="images/pic10.jpg" alt="" />
-						</span>
-						<a href="generic.html">
-							<h2>Ultricies</h2>
-							<div class="content">
-								<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-							</div>
-						</a>
-					</article> -->
 
 
 					<!-- <article class="style6">
@@ -321,6 +314,14 @@
 
 		function goTlzd() {
 			window.location.href = "https://dao3.fun/exp/experience/detail/100076759";
+		}
+
+		function goJmcg() {
+			if (isMobile()) {
+				window.location.href = "https://sirwjx.github.io/show/game/jmcg-mobile";
+			} else {
+				window.location.href = "https://sirwjx.github.io/show/game/jmcg-desktop";
+			}
 		}
 
 
